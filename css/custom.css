@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Work+Sans:wght@300;400;600&display=swap');
+
+/* font-family: 'Cormorant', serif;
+font-family: 'Work Sans', sans-serif; */
+ 
+/* page background colors */
+#index-body {
+    background-color: #000000;
+}
+
+#red-body {
+    background-color: #B20606;
+}
+
+#orange-body {
+    background-color: #F4712A;
+}
+
+#yellow-body {
+    background-color: #F0C97F;
+}
+
+#green-body {
+    background-color: #194D30;
+}
+
+#blue-body {
+    background-color: #004466;
+}
+
+#purple-body {
+    background-color: #3C1D49;
+}
+
+/* container */
+.container-fluid {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* nav stuff */
+.nav-link {
+    color: #999999;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: .9rem;
+    margin-right: 1.95rem;
+    margin-left: 1.95rem;
+}
+
+.nav {
+    margin-bottom: 1rem;
+}
+
+/* any active nav tab */
+.active {
+    color: #FFFFFF;
+}
+
+/* specific nav color tab hovers */
+.red:hover {
+    color: #D64045;
+}
+
+.orange:hover {
+    color: #ED7E07;
+}
+
+.yellow:hover {
+    color: #FFF07C;
+}
+
+.green:hover {
+    color: #2BA84A;
+}
+
+.blue:hover {
+    color: #3875FA;
+}
+
+.purple:hover {
+    color: #A682FF;
+}
+
+.regularlink {
+    color: #FFFFFF;
+}
+
+.regularlink:hover {
+    color: #FFFFFF;
+}
+
+/* text formatting */
+
+h1 {
+    color: #ffffff;
+    font-family: 'Cormorant', serif;
+    font-weight: 400;
+    font-size: 14rem;
+    margin-top: 25%;
+    margin-bottom: .7rem;
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: 'Cormorant', serif;
+    font-weight: 400;
+    font-size: 7.5rem;
+    margin-top: 25rem;
+    margin-bottom: .7rem;
+    position: relative;
+    z-index: 1;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: 'Cormorant', serif;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: .7rem;
+    position: relative;
+    z-index: 1;
+}
+
+h4 {
+    color: #ffffff;
+    font-family: 'Cormorant', serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.card {
+    background-color: #000000;
+    text-align: justify;
+    color: #E0E0E0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.cardclear {
+    background-color: none;
+    text-align: justify;
+    color: #E0E0E0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* home page head-light image */
+#head {
+    position: absolute; 
+    z-index: -1;
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/* color pages' main image */
+#colorimage {
+    position: absolute; 
+    z-index: -1;
+    display: block;
+    margin-left: ;
+    margin-right: ;
+}
+
+.full-card {
+    padding: 0px;
+}
+
+.btn {
+    margin-top: 19rem;
+    margin-bottom: 3rem;
+    color: #D6D6D6;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.carousel {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
